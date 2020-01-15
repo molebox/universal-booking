@@ -1,5 +1,18 @@
-import React from 'react';
+/** @jsx jsx */
+import { jsx } from "theme-ui";
+import Base from "../components/base";
 
+/**
+ * Default page to get started. Will be main entry point to the website
+ */
 export default () => (
-    <h1>Hello!</h1>
-)
+  <Base>
+    <h1
+      sx={{
+        fontFamily: "heading"
+      }}
+    >
+      Hello!
+    </h1>
+  </Base>
+);
